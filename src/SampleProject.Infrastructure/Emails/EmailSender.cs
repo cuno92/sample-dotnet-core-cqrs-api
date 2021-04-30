@@ -9,7 +9,7 @@ namespace SampleProject.Infrastructure.Emails
         {
             // Integration with email service.
 
-            return;
+            await Task.CompletedTask;
         }
     }
 }
